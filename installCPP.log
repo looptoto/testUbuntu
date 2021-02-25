@@ -1,0 +1,21 @@
+这里以Debian系为示例
+
+更新包索引
+
+$ sudo apt update
+
+安装开发工具包
+
+$ sudo apt install build-essential gdb
+
+查看gcc是否安装成功
+
+$ gcc -v && g++ -v
+
+$ g++ hello.cpp -o hello && ./hello
+
+成功输出
+
+    Hello, C!
+    Hello, C++!
+
